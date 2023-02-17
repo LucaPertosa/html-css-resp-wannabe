@@ -132,6 +132,11 @@ img {
 
 @media screen and (max-width: 1160px) {
     
+    .container {
+        width: 100%;
+    }
+
+
 }
 
 
@@ -153,8 +158,9 @@ img {
         --background-color-try-section: #222222;
     }
 
-    .container {
+    .container:not(:last-child) {
         width: 100%;
+        /* text-align: center; */
     }
     
     .row{
