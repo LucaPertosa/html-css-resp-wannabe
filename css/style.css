@@ -128,6 +128,15 @@ img {
     SOLUZIONE RESPONSIVE
  ************************************************/
 
+/* RESPONSIVE 1160px */
+
+@media screen and (max-width: 1160px) {
+    
+}
+
+
+
+
 /* RESPONSIVE TABLET */
 
 @media screen and (max-width: 768px) {
@@ -144,9 +153,8 @@ img {
         --background-color-try-section: #222222;
     }
 
-    .container:not(:last-child) {
+    .container {
         width: 100%;
-        text-align: center;
     }
     
     .row{
@@ -177,6 +185,7 @@ img {
     .why-us {
         background-color: var(--background-color-try-section);
     }
+
     .why-us li {
         list-style: none;
         padding-bottom: 2.5rem;
