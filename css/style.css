@@ -127,3 +127,11 @@ img {
 /************************************************
     SOLUZIONE RESPONSIVE
  ************************************************/
+
+/* RESPONSIVE TABLET */
+
+@media screen and (max-width: 768px) {
+    .container {
+        width: 100%;
+    }
+}
