@@ -135,3 +135,51 @@ img {
         width: 100%;
     }
 }
+
+/* RESPONSIVE MOBILE */
+
+@media screen and (max-width: 480px) {
+
+    :root {
+        --background-color-try-section: #222222;
+    }
+
+    .container:not(:last-child) {
+        width: 100%;
+        text-align: center;
+    }
+    
+    .row{
+        display: block;
+    }
+
+    .lessons .col,
+    .steps .col,
+    .why-us .col {
+        width: 100%;
+    }
+
+    .col:not(:first-child) {
+        padding-top: 4rem;
+    }
+
+    .lessons {
+        margin: 0;
+        padding-bottom: 3rem;
+    }
+
+    .steps,
+    .why-us {
+        margin: 0;
+        padding: 3rem 0;
+    }
+
+    .why-us {
+        background-color: var(--background-color-try-section);
+    }
+    .why-us li {
+        list-style: none;
+        padding-bottom: 2.5rem;
+        margin: 0;
+    }
+}
